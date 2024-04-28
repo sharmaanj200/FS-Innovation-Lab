@@ -7,3 +7,4 @@ This is the programming task for summer research position at the FS innovation L
 3. Downloaded and stored dataset for the 3 sample company ticker that I have taken.
 
 ## Task 1.2
+https://sec-api.io/resources/extract-textual-data-from-edgar-10-k-filings-using-python
