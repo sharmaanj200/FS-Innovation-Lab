@@ -1,5 +1,5 @@
 # FS-Innovation-Lab
-This is the programming task for summer research position at the FS innovation Lab, Georgia Institute of Technology
+This is the programming task for summer research position at the FS innovation Lab, Georgia Institute of Technology.
 
 ## Task 1.1
 1. Utilized the sec-edgar-downloader package in python for extracting the 10-k filings.
