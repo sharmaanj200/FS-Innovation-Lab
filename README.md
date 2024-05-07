@@ -11,7 +11,7 @@ This is the programming task for summer research position at the FS innovation L
 3. The HTML and XGBR format in the text file containing 10K filings was parsed using - BeautifulSoup.
 4. Parsing XGBR was very challenging and required a lot of reading up and trial and errors. It is still not perfect but I am working on improving it.
 
-For the LLM inference API, I utilized the merged document according to years and long text summarization model of transformers on hugging face to generate summaries. 
+For the LLM inference API, I utilized the merged document (according to years) and long text summarization model of transformers on hugging face to generate summaries. 
 
 Due to lack of time, I wasnt able to analyze and devise strategies to generate visualization using the summarized data but,
 ### I have a potential approach in mind which I am sharing:
