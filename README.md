@@ -20,5 +20,21 @@ Due to lack of time, I wasnt able to analyze and devise strategies to generate v
 - The answers to the questions contains tables and other metric that can be visualized using bar graphs, plots and charts which can then be fed into PowerBi to generate the visualizations.
 
 ## Task 2
-For Task 2, I employed Flask, HTML, CSS and Javascript to create a web app which can take in input and generate visualization but I was not able to resolve certain errors due to time constraints. 
+For Task 2, I employed Flask, HTML, CSS and Javascript to create a web app which can take in input and generate visualization but I was not able to resolve certain errors due to time constraints. (Deployment app contains the code for this)
+
+## References
+1. https://www.sec.gov/developer
+2. https://huggingface.co/docs/transformers/en/index
+3. https://medium.com/@jan_5421/how-to-download-and-scrape-10-k-filings-from-sec-edgar-b0d245fc8d48
+4. https://pypi.org/project/py-xbrl/
+5. https://pypi.org/project/sec-edgar-downloader/
+6. https://stackoverflow.com/questions/74225258/downloading-all-10-k-filings-for-sec-edgar-in-python
+7. https://sec-api.io/resources/analyzing-sec-edgar-filing-trends-and-patterns-from-1994-to-2022
+8. https://sec-api.io/resources/extract-textual-data-from-edgar-10-k-filings-using-python
+9. https://financestime.com/understanding-secedgar-extracting-data-structure-explained/
+10. https://www.investopedia.com/articles/fundamental-analysis/08/sec-forms.asp
+and many more youtube channels, blogs, documentations I have gone through to make this project work
+
+P.S.
+I have learnt a lot working on this project. From understanding absolutely nothing about the project to working hard to put this together (even though it is not completed and last part of the task has some errors, I am grateful for this learning opportunity. 
 
