@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Visualization Tool for Financial Data</title>
+</head>
+<body>
+    <h1>SEC-EDGAR 10k filings Visualization tool</h1>
+    <form id="stockForm" method="POST" action="http://localhost:5000/download_10k" onsubmit="submitData(); return false;">
+        <input id="tickerInput" class="ticker" type="text" placeholder="Enter the stock ticker of a company" name="ticker">
+        <input type="submit" value="Submit">
+        <div id="responseDisplay"></div>
+    </form>
+    
+    <script>
+        function submitData() {
+            var formElement = document.getElementById('stockForm');
+            var formData = new FormData(formElement);
+    
+            fetch(formElement.action, {
+                method: 'POST',
+                body: formData,
+            }).then(response => response.json())
+              .then(data => {
+                  document.getElementById('responseDisplay').innerHTML = 
+                      data.Message ? data.Message : 'Error: ' + data.Error;
+            });
+    
+            document.getElementById('tickerInput').value = ""; // Clear the input after sending
+        }
+    </script>    
+</body>
+</html>
+
+
