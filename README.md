@@ -37,5 +37,5 @@ For Task 2, I employed Flask, HTML, CSS and Javascript to create a web app which
 and many more youtube channels, blogs, documentations I have gone through to make this project work
 
 P.S.
-I have learnt a lot working on this project. From understanding absolutely nothing about the project to working hard to put this together (even though it is not completed and last part of the task has some errors, I am grateful for this learning opportunity. 
+I have learnt a lot working on this project. From understanding absolutely nothing about the project to working hard to put this together (even though it is not completed and last part of the task has some errors). I am grateful for this learning opportunity. 
 
