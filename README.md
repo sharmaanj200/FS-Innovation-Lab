@@ -20,7 +20,7 @@ Due to lack of time, I wasnt able to analyze and devise strategies to generate v
 - The answers to the questions contains tables and other metric that can be visualized using bar graphs, plots and charts which can then be fed into PowerBi to generate the visualizations.
 
 ## Task 2
-For Task 2, I employed Flask, HTML, CSS and Javascript to create a web app which can take in input and generate visualization but I was not able to resolve certain errors due to time constraints. (Deployment app contains the code for this)
+For Task 2, I employed Flask, HTML, CSS and Javascript to create a web app which can take in input and generate visualization but I was not able to resolve certain errors due to time constraints. (Deployment Code folder contains the code for this)
 
 ## References
 1. https://www.sec.gov/developer
@@ -33,6 +33,7 @@ For Task 2, I employed Flask, HTML, CSS and Javascript to create a web app which
 8. https://sec-api.io/resources/extract-textual-data-from-edgar-10-k-filings-using-python
 9. https://financestime.com/understanding-secedgar-extracting-data-structure-explained/
 10. https://www.investopedia.com/articles/fundamental-analysis/08/sec-forms.asp
+    
 and many more youtube channels, blogs, documentations I have gone through to make this project work
 
 P.S.
