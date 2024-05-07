@@ -13,10 +13,11 @@ This is the programming task for summer research position at the FS innovation L
 
 For the LLM inference API, I utilized the merged document according to years and long text summarization model of transformers on hugging face to generate summaries. 
 
-### Due to lack of time, I wasnt able to analyze and devise strategies to generate visualization using the summarized data but I have an approach in mind which I am sharing:
+Due to lack of time, I wasnt able to analyze and devise strategies to generate visualization using the summarized data but,
+### I have a potential approach in mind which I am sharing:
 - The summarized data is passed through another LLM model trained on QA answering.
 - Question based on inputs that a user might find insightful regarding a company's profile in the last 10 years can be collected and then fed into the pretrained model which is fed the summarized data.
-- The answers to the questions contains numericals which can then be fed into PowerBi to generate the visualizations.
+- The answers to the questions contains tables and other metric that can be visualized using bar graphs, plots and charts which can then be fed into PowerBi to generate the visualizations.
 
 ## Task 2
 For Task 2, I employed Flask, HTML, CSS and Javascript to create a web app which can take in input and generate visualization but I was not able to resolve certain errors due to time constraints. 
